@@ -1,0 +1,28 @@
+{
+  "name": "gent",
+  "version": "1.0.0",
+  "description": "Generate random titles",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "python3 -m http.server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paradite/gent.git"
+  },
+  "author": "paradite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paradite/gent/issues"
+  },
+  "homepage": "https://github.com/paradite/gent#readme",
+  "dependencies": {
+    "cfgrammar-tool": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.24.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

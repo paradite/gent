@@ -1,0 +1,49 @@
+{
+  "BASE": [
+    "Engineer",
+    "Recruiter",
+    "Director",
+    "Developer",
+    "Strategist",
+    "Manager",
+    "Artist",
+    "Accountant",
+    "Leader",
+    "Architect",
+    "Executive",
+    "Entrepreneur"
+  ],
+  "ADJ": ["Associate", "Senior", "Experienced", "Aspiring", "Lead"],
+  "AREAJ": [
+    "Growth",
+    "Engagement",
+    "Diversity",
+    "Partner",
+    "Social Media",
+    "Content",
+    "Digital",
+    "Cloud",
+    "SaaS",
+    "Product",
+    "Marketing",
+    "Enterprise",
+    "Innovation"
+  ],
+  "AREAN": [
+    "Growth",
+    "Engagement",
+    "Diversity",
+    "Partnerships",
+    "Cloud Computing",
+    "Technology",
+    "Innovation"
+  ],
+  "NON_WORK_BASE": [
+    "Poet",
+    "Mother",
+    "Father",
+    "Husband",
+    "Wife",
+    "Forbes 30 under 30"
+  ]
+}
