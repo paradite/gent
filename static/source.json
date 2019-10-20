@@ -17,9 +17,11 @@
     "VP",
     "Founder",
     "Hacker",
-    "Associate"
+    "Associate",
+    "Economist",
+    "Scientist"
   ],
-  "ADJ": ["Senior", "Experienced", "Aspiring", "Lead", "Manging"],
+  "ADJ": ["Senior", "Experienced", "Aspiring", "Lead", "Manging", "Chief"],
   "AREAJ": [
     "Growth",
     "Engagement",
@@ -45,7 +47,8 @@
     "Partnerships",
     "Cloud Computing",
     "Technology",
-    "Innovation"
+    "Innovation",
+    "Engineering"
   ],
   "NON_WORK_BASE": [
     "Poet",

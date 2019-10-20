@@ -47,6 +47,7 @@ fetch('static/source.json')
       Rule('N', [NT('BASE')]),
       Rule('JJ', [NT('ADJ')]),
       Rule('P', [T('in')]),
+      Rule('P', [T('of')]),
       ...rules,
     ]);
 
@@ -89,7 +90,7 @@ fetch('static/source.json')
       let words = title.split(' ');
       while (
         style === 'short' &&
-        (words.length < 4 || (more < 0.8 && words.length < 9))
+        (words.length < 5 || (more < 0.8 && words.length < 9))
       ) {
         const newTitle = generateTitle(style);
         const wordSet = new Set(newTitle.split(' '));
