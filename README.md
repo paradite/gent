@@ -1,6 +1,8 @@
 # gent
 
-> Generate the perfect title for your LinkedIn and Twitter
+> Generate the perfect title for your LinkedIn and Twitter profile
+
+https://g.paradite.com/
 
 ## sources
 

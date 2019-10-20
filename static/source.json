@@ -15,9 +15,11 @@
     "Creator",
     "Analyst",
     "VP",
-    "Founder"
+    "Founder",
+    "Hacker",
+    "Associate"
   ],
-  "ADJ": ["Associate", "Senior", "Experienced", "Aspiring", "Lead", "Manging"],
+  "ADJ": ["Senior", "Experienced", "Aspiring", "Lead", "Manging"],
   "AREAJ": [
     "Growth",
     "Engagement",
@@ -31,7 +33,10 @@
     "Product",
     "Marketing",
     "Enterprise",
-    "Innovation"
+    "Innovation",
+    "Business Development",
+    "Talent",
+    "Technical"
   ],
   "AREAN": [
     "Growth",
