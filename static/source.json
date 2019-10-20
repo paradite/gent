@@ -11,9 +11,13 @@
     "Leader",
     "Architect",
     "Executive",
-    "Entrepreneur"
+    "Entrepreneur",
+    "Creator",
+    "Analyst",
+    "VP",
+    "Founder"
   ],
-  "ADJ": ["Associate", "Senior", "Experienced", "Aspiring", "Lead"],
+  "ADJ": ["Associate", "Senior", "Experienced", "Aspiring", "Lead", "Manging"],
   "AREAJ": [
     "Growth",
     "Engagement",
@@ -44,6 +48,7 @@
     "Father",
     "Husband",
     "Wife",
-    "Forbes 30 under 30"
+    "Forbes 30 under 30",
+    "CEO"
   ]
 }

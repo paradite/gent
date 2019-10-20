@@ -28,8 +28,6 @@ fetch('static/source.json')
       Rule('S', [NT('NP')]),
       Rule('NP', [NT('NON_WORK_BASE')]),
       Rule('NP', [NT('NJJ')]),
-      Rule('NP', [NT('NJJ'), NT('PP')]),
-      Rule('PP', [NT('P'), NT('AREAN')]),
       Rule('NJJ', [NT('AREAJ'), NT('N')]),
       Rule('NJJ', [NT('N')]),
       Rule('N', [NT('BASE')]),
@@ -57,8 +55,8 @@ fetch('static/source.json')
       let minLength;
       let exprGrammar;
       if (style === 'short') {
-        maxLength = 3;
-        minLength = 2;
+        maxLength = 4;
+        minLength = 1;
         exprGrammar = exprGrammarShort;
       } else {
         maxLength = 5;
@@ -91,7 +89,7 @@ fetch('static/source.json')
       let words = title.split(' ');
       while (
         style === 'short' &&
-        (words.length < 3 || (more < 0.8 && words.length < 9))
+        (words.length < 4 || (more < 0.8 && words.length < 9))
       ) {
         const newTitle = generateTitle(style);
         const wordSet = new Set(newTitle.split(' '));
