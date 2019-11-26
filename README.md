@@ -1,6 +1,6 @@
 # gent
 
-> Generate the perfect title for your LinkedIn and Twitter profile
+> Generate the "perfect" title/bio for LinkedIn and Twitter
 
 https://g.paradite.com/
 
